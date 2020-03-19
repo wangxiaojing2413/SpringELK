@@ -2,7 +2,7 @@
 <!DOCTYPE configuration>
 <configuration>
   <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-    <destination>localhost:4560</destination>
+    <destination>192.168.131.129:4560</destination>
     <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" />
   </appender>
 

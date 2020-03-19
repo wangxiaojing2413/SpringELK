@@ -18,7 +18,7 @@ public class SpringbootWithElkApplication implements CommandLineRunner {
         Logger logger = LoggerFactory.getLogger(SpringbootWithElkApplication.class);
         logger.info("测试log");
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100000000; i++) {
             logger.error("something wrong. id={}; name=Ryan-{};", i, i);
         }
     }
